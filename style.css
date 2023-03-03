@@ -72,3 +72,50 @@ select {
     scroll-behavior: auto !important;
   }
 }
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 25rem;
+  border: 2px solid red;
+  text-align: center;
+}
+
+.result-section {
+  background-color: aqua;
+  padding: 2rem;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.summary-section {
+  padding: 0 3rem 1rem 3rem;
+  /* border: 2px solid blue; */
+  margin-top: -1rem;
+}
+
+h3 {
+  text-align: left;
+}
+
+.left {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.reaction,
+.memory,
+.verbal,
+.visual {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
